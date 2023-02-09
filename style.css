@@ -1,0 +1,435 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.top {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#frontImage {
+  height: auto;
+  width: 15%;
+  margin-top: 15%;
+  margin-left: 15%;
+  background-color: black;
+  min-width: 90px;
+}
+
+#about {
+  height: auto;
+  width: 30%;
+  margin-right: 10%;
+  margin-top: 25%;
+  float: right;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  transform: rotate(370deg);
+  transition: 1s 1.5s ease-in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+  }
+}
+#about .rotation1 {
+  animation: 1s ease-out 0s 1 rotation;
+}
+
+#about:hover {
+  transform: rotate(-10deg);
+  transition: 1s ease-in;
+}
+
+#about:hover .rotation1 {
+  transform: rotate(180deg);
+  transition: 1s ease-in;
+}
+
+.rotation1 {
+  transform: rotate(-180deg);
+  transition: 1s ease-in;
+}
+
+li {
+  list-style: none;
+}
+
+#portfolio {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.h1Portfolio {
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+
+.projects {
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  border-radius: 15px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  background-size: cover;
+}
+
+.projects p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.project a {
+  color: black;
+}
+
+.textHover {
+    background-color: rgba(220, 220, 220, 0.8);
+    border-radius: 15px;
+  width: 100%;
+  height: 50%;
+}
+
+
+#project1 {
+  background: url(/images/ventil.png) no-repeat;
+  background-size: 100% 50%;
+  height: 350px;
+  width: 250px;
+  background-color: rgba(220, 220, 220, 0.9);
+  border: 1px #ffffff solid;
+  transition: 0.5s ease-in;
+}
+
+#project2 {
+  background: url(/images/sec.jpg) no-repeat;
+  background-size: 100% 50%;
+  height: 350px;
+  width: 250px;
+  background-color: rgba(220, 220, 220, 0.9);
+  border: 1px #ffffff solid;
+  transition: 0.5s ease-in;
+}
+
+#project3 {
+  background: url(/images/portfolio.jpg) no-repeat;
+  background-size: 100% 50%;
+  height: 350px;
+  width: 250px;
+  background-color: rgba(220, 220, 220, 0.9);
+  border: 1px #ffffff solid;
+  transition: 0.5s ease-in;
+}
+
+#project4 {
+  background: url(/images/blackportfolio.jpg) no-repeat;
+  background-size: 100% 50%;
+  height: 350px;
+  width: 250px;
+  background-color: rgba(220, 220, 220, 0.9);
+  border: 1px #ffffff solid;
+  transition: 0.5s ease-in;
+}
+
+#project5 {
+  background: url(/images/calc.png) no-repeat;
+  background-size: 100% 50%;
+  height: 350px;
+  width: 250px;
+  background-color: rgba(220, 220, 220, 0.9);
+  border: 1px #ffffff solid;
+  transition: 0.5s ease-in;
+}
+
+#project6 {
+  background: url(/images/metaimage.png) no-repeat;
+  background-size: 100% 50%;
+  height: 350px;
+  width: 250px;
+  background-color: rgba(220, 220, 220, 0.9);
+  border: 1px #ffffff solid;
+  transition: 0.5s ease-in;
+}
+
+#project1:hover {
+  transition: 0.5s ease;
+  background-size: 150% 150%;
+  background-position: 70%;
+  box-shadow: 0px 0px 27px 10px rgba(220, 220, 220, 0.514) !important;
+}
+
+#project2:hover {
+  transition: 0.5s ease;
+  background-size: 150% 150%;
+  background-position: 70%;
+  box-shadow: 0px 0px 27px 10px rgba(220, 220, 220, 0.514) !important;
+}
+
+#project3:hover {
+  transition: 0.5s ease;
+  background-size: 150% 150%;
+  background-position: 70%;
+  box-shadow: 0px 0px 27px 10px rgba(220, 220, 220, 0.514) !important;
+}
+
+#project4:hover {
+  transition: 0.5s ease;
+  background-size: 150% 150%;
+  background-position: 70%;
+  box-shadow: 0px 0px 27px 10px rgba(220, 220, 220, 0.514) !important;
+}
+
+#project5:hover {
+  transition: 0.5s ease;
+  background-size: 150% 150%;
+  background-position: 70%;
+  box-shadow: 0px 0px 27px 10px rgba(220, 220, 220, 0.514) !important;
+}
+
+#project6:hover {
+  transition: 0.5s ease;
+  background-size: 150% 150%;
+  background-position: 70%;
+  box-shadow: 0px 0px 27px 10px rgba(220, 220, 220, 0.514) !important;
+}
+
+#hrContact {
+  margin-top: 5%;
+  height: 2px;
+  background-color: white;
+  border: none;
+  width: 100%;
+}
+
+#contact {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactForm {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  color: #000000;
+  background-image: url(/images/contactBackground.png);
+  border-radius: 15px;
+  font-size: 30px;
+  box-shadow: 0px 0px 17px 2px #c4c4c4;
+}
+
+.form {
+  margin-top: 5%;
+}
+
+.inputs {
+  padding: 10px 20px 20px 20px;
+}
+
+.form input[type="text"] {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+  border: 3px #000000 solid;
+}
+
+.form input[type="email"] {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+  border: 3px #000000 solid;
+}
+
+#textarea {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+  border: 3px #000000 solid;
+}
+
+#submit {
+  background: #00000078;
+  color: white;
+  border: 1px white solid;
+  height: auto;
+  width: 80%;
+  border-radius: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  text-shadow: none;
+}
+
+#submit:hover {
+  border-color: #85c12cda;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 40vh;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: #85c12cda;
+}
+
+li {
+  margin: 5px;
+}
+
+.cookieConsentContainer {
+  z-index: 999;
+  width: 350px;
+  min-height: 20px;
+  box-sizing: border-box;
+  padding: 30px 30px 30px 30px;
+  background: #3e3a3a9b;
+  overflow: hidden;
+  position: fixed;
+  bottom: 30px;
+  display: flex;
+  border-radius: 15px;
+  border-color: #000000;
+  border-style: double;
+}
+
+.cookieConsentContainer .cookieTitle a {
+  font-family: OpenSans, arial, "sans-serif";
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 20px;
+  display: block;
+}
+
+.cookieConsentContainer .cookieDesc p {
+  margin: 0;
+  padding: 0;
+  font-family: OpenSans, arial, "sans-serif";
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 20px;
+  display: block;
+  margin-top: 10px;
+}
+
+.cookieConsentContainer .cookieDesc a {
+  font-family: OpenSans, arial, "sans-serif";
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.cookieConsentContainer .cookieButton a {
+  display: inline-block;
+  font-family: OpenSans, arial, "sans-serif";
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 14px;
+  background: #5c876796;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  text-align: center;
+  transition: background 0.3s;
+  border-radius: 15px;
+}
+
+.cookieConsentContainer .cookieButton a:hover {
+  cursor: pointer;
+  background: #3e9b67;
+}
+
+/* impressum // AGB // Datenschutz */
+
+#backBtn1 {
+    background-color: #000000;
+  position: sticky;
+  top: 0;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+}
+
+#backBtn1:hover {
+  background-color: #b8bdba;
+}
+
+.schrift_impressum {
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.schrift_impressum a {
+  color: white;
+}
+
+.copy {
+  color: white;
+  text-align: center;
+}
