@@ -1,7 +1,6 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: #000000;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -71,6 +70,11 @@ h2 {
   text-align: center;
   padding: 5%;
   font-size: 2.5em;
+  margin: 0;
+}
+
+main {
+  background-color: #000000;
 }
 
 .portfolio {
@@ -109,8 +113,6 @@ h2 {
   flex-direction: column;
   justify-content: flex-end;
 }
-
-
 
 .textHover {
     background-color: rgba(220, 220, 220, 0.8);
@@ -165,7 +167,6 @@ h2 {
   background-size: 100% 50%;
   transition: 0.5s ease-in;
 }
-
 
 #project1:hover,
 #project2:hover, 
